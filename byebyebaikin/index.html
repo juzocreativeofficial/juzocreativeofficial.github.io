@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="カメラで手の動きを認識し、子どもの手洗い習慣を楽しく応援するiPhoneアプリ、バイバイばいきん。">
+<title>バイバイばいきん</title>
+<style>
+  :root { --mint:#14aa91; --ink:#1a212e; --sub:#61707a; }
+  * { box-sizing:border-box; }
+  body { margin:0; min-height:100vh; color:var(--ink); font-family:-apple-system,"Hiragino Sans","Yu Gothic",system-ui,sans-serif; background:linear-gradient(145deg,#dff9f0,#d9f2ff); }
+  main { max-width:900px; margin:0 auto; padding:72px 24px 48px; text-align:center; }
+  .germ { width:132px; height:132px; margin:0 auto 28px; display:grid; place-items:center; border-radius:50%; color:#fff; background:#292936; font-size:3.2rem; box-shadow:0 20px 48px rgba(41,41,54,.18); }
+  h1 { margin:0; font-size:clamp(2.2rem,8vw,4.2rem); letter-spacing:.02em; }
+  .lead { max-width:640px; margin:20px auto 36px; color:var(--sub); font-size:1.15rem; line-height:1.9; }
+  .features { display:grid; grid-template-columns:repeat(auto-fit,minmax(210px,1fr)); gap:16px; margin:44px 0; text-align:left; }
+  .feature { padding:24px; border-radius:24px; background:rgba(255,255,255,.82); box-shadow:0 14px 36px rgba(20,120,140,.08); }
+  .feature strong { display:block; margin-bottom:8px; color:#087d6b; }
+  .notice { margin:36px auto; padding:20px; max-width:680px; border-radius:20px; background:rgba(255,255,255,.62); color:var(--sub); line-height:1.75; }
+  nav { display:flex; justify-content:center; flex-wrap:wrap; gap:20px; margin-top:40px; }
+  a { color:#087d6b; font-weight:700; }
+  footer { margin-top:48px; color:var(--sub); font-size:.85rem; }
+</style>
+</head>
+<body>
+<main>
+  <div class="germ" aria-hidden="true">👿</div>
+  <h1>バイバイばいきん</h1>
+  <p class="lead">手をカメラに映すと、かわいいばいきんが登場。両手をゴシゴシ動かして、帰宅後の手洗いを楽しいミッションに変えるiPhoneアプリです。</p>
+
+  <section class="features" aria-label="主な機能">
+    <div class="feature"><strong>手の動きを認識</strong>手を動かしている間だけタイマーが進みます。</div>
+    <div class="feature"><strong>楽しいばいきん演出</strong>ゴシゴシするほど、ばいきんが少しずつ逃げていきます。</div>
+    <div class="feature"><strong>安心の端末内処理</strong>カメラ映像を保存したり、外部へ送信したりしません。</div>
+  </section>
+
+  <div class="notice">本アプリは手洗い習慣を楽しく促すものであり、手の清潔さや衛生状態を医学的に判定・保証するものではありません。iPhoneは水がかからない安定した場所に置き、保護者の方と一緒にご利用ください。</div>
+
+  <nav>
+    <a href="support.html">サポート</a>
+    <a href="privacy_policy.html">プライバシーポリシー</a>
+    <a href="terms.html">利用規約</a>
+  </nav>
+  <footer>© 2026 JuzoCreative</footer>
+</main>
+</body>
+</html>
